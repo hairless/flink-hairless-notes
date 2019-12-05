@@ -1,2 +1,6 @@
+# Default
 *.class
 *.log
+
+# IDEA
+.idea
