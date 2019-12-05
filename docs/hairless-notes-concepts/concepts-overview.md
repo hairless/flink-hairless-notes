@@ -10,7 +10,7 @@ Apache Flink 最初是由德国柏林工业大学的几个博士生和研究生�
 PS : 我只能弱弱的说一句，流弊 。。。
 
 ## 详情
-参考 : <https://ververica.cn/developers/flink-basic-tutorial-1-basic-concept/>
+参考 : <https://ververica.cn/developers/flink-basic-tutorial-1-basic-concept/>  
 PS : 强烈推荐准备入门的萌新一定要看一看这篇文章，基础概念啥的，应用场景，流处理思想，状态，快照，事件时间，等等，都有一个很好的介绍。
 
 ## 参考
