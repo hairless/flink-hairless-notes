@@ -12,5 +12,5 @@ PS : 我只能弱弱的说一句，流弊 。。。
 ## 参考
 * [Flink 官方中文社区](https://ververica.cn)
 * [基础概念解析](https://ververica.cn/developers/flink-basic-tutorial-1-basic-concept/)
-* [Flink 产生的背景以及简洁](https://www.jianshu.com/p/761b2456dd8e)
+* [Flink 产生的背景以及简介](https://www.jianshu.com/p/761b2456dd8e)
 * <https://blog.51cto.com/14286418/2396412>
