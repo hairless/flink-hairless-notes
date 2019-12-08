@@ -39,10 +39,10 @@ Managed State describes application state which has been registered with the fra
 ### Flink Master（）
 The Flink Master is the master of a Flink Cluster. It contains three distinct components: Flink Resource Manager, Flink Dispatcher and one Flink JobManager per running Flink Job.
 
-### Operator（操作器）
+### Operator（操作器 / 算子）
 Node of a Logical Graph. An Operator performs a certain operation, which is usually executed by a Function. Sources and Sinks are special Operators for data ingestion and data egress.
 
-### Operator Chain（操作链）
+### Operator Chain（操作器链 / 算子链）
 An Operator Chain consists of two or more consecutive Operators without any repartitioning in between. Operators within the same Operator Chain forward records to each other directly without going through serialization or Flink’s network stack.
 
 ### Partition（分区）
