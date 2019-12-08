@@ -1,6 +1,8 @@
 # Apache Flink Hairless Notes
 Apache Flink Hairless Notes
 
+## 官方地址
+<https://flink.apache.org/>
 
 ## 学习路线
 参考官方文档, 定制的一个简陋的 [学习路线图](images/hairless-notes/apache-flink-learning-roadmap-v0.1.0.png). 希望大家可以一起坚持下来.
