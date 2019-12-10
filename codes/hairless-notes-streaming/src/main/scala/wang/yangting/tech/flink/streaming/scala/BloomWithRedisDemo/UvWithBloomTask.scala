@@ -3,7 +3,7 @@ package wang.yangting.tech.flink.streaming.scala.BloomWithRedisDemo
 /**
  * @Author sujinyang
  * @Date 2019/12/10 5:58 下午
- * @Version 1.0
+ * @Version 1.0 copy 尚硅谷 demo比较好，希望对你有帮助
  */
 
 import org.apache.flink.streaming.api.TimeCharacteristic
