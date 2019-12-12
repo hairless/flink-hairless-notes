@@ -75,11 +75,6 @@
             <id>dev(local)</id>
             <properties>
                 <profiles.active>dev</profiles.active>
-                <spring.boot.tomcat.scope>compile</spring.boot.tomcat.scope>
-                <hadoop.deps.scope>compile</hadoop.deps.scope>
-                <spark.deps.scope>compile</spark.deps.scope>
-                <scala.deps.scope>compile</scala.deps.scope>
-                <log.deps.scope>compile</log.deps.scope>
                 <flink.deps.scope>compile</flink.deps.scope>
             </properties>
             <activation>
@@ -97,22 +92,6 @@
 
     <build>
         <plugins>
-            <!--源码安装-->
-            <plugin>
-                <artifactId>maven-source-plugin</artifactId>
-                <version>2.1</version>
-                <configuration>
-                    <attach>true</attach>
-                </configuration>
-                <executions>
-                    <execution>
-                        <phase>compile</phase>
-                        <goals>
-                            <goal>jar</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
