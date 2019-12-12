@@ -1,13 +1,10 @@
-package wang.yangting.tech.flink.streaming.scala.transformation.mutli_datastream
+package wang.yangting.tech.flink.streaming.scala.operators.mutli_operator
 
 import org.apache.flink.streaming.api.functions.co.CoMapFunction
 import org.apache.flink.streaming.api.scala.{ConnectedStreams, DataStream, StreamExecutionEnvironment}
 
 /**
   * @author yx.zhang
-  * Connect[DataStream -> DataStream]
-  * connect算子主要是为了合并两种或者多种不同数据类型的数据集 ，合并后会保留原来数据集的数据类型
-  * 连接操作允许共享状态数据，意味着多个数据集之间可以操作和查看对方数据集的状态。
   */
 object Connect {
   def main(args: Array[String]): Unit = {

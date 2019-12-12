@@ -1,4 +1,4 @@
-package wang.yangting.tech.flink.streaming.scala.transformation.mutli_datastream
+package wang.yangting.tech.flink.streaming.scala.operators.mutli_operator
 
 import org.apache.flink.streaming.api.scala.{DataStream, StreamExecutionEnvironment}
 

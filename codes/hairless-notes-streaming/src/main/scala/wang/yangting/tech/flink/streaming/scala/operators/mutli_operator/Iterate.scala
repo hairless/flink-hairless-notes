@@ -1,12 +1,9 @@
-package wang.yangting.tech.flink.streaming.scala.transformation.mutli_datastream
+package wang.yangting.tech.flink.streaming.scala.operators.mutli_operator
 
 import org.apache.flink.streaming.api.scala.{ConnectedStreams, StreamExecutionEnvironment}
 
 /**
   * @author yx.zhang
-  * Iterate [DataStream-> IterativeStream->DataStream]
-  * 适合迭代计算场景，通过每一次迭代计算，将迭代结果反馈到下一次迭代计算中
-  *
   */
 object Iterate {
   def main(args: Array[String]): Unit = {
