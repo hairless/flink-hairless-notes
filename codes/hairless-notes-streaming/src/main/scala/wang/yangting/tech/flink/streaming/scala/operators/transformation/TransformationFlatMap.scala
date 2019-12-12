@@ -1,11 +1,11 @@
-package wang.yangting.tech.flink.streaming.scala.operators.single_operator
+package wang.yangting.tech.flink.streaming.scala.operators.transformation
 
 import org.apache.flink.streaming.api.scala.{DataStream, StreamExecutionEnvironment}
 
 /**
   * @author yx.zhang
   */
-object FlatMap {
+object TransformationFlatMap {
   def main(args: Array[String]): Unit = {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
 

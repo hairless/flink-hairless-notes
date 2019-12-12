@@ -1,11 +1,11 @@
-package wang.yangting.tech.flink.streaming.scala.operators.mutli_operator
+package wang.yangting.tech.flink.streaming.scala.operators.transformation
 
 import org.apache.flink.streaming.api.scala.{ConnectedStreams, StreamExecutionEnvironment}
 
 /**
   * @author yx.zhang
   */
-object Iterate {
+object TransformationIterate {
   def main(args: Array[String]): Unit = {
         val env = StreamExecutionEnvironment.getExecutionEnvironment
         import org.apache.flink.api.scala._

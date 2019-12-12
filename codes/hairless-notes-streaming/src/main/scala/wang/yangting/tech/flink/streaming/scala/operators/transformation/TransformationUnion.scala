@@ -1,4 +1,4 @@
-package wang.yangting.tech.flink.streaming.scala.operators.mutli_operator
+package wang.yangting.tech.flink.streaming.scala.operators.transformation
 
 import org.apache.flink.streaming.api.scala.{DataStream, StreamExecutionEnvironment}
 
@@ -7,10 +7,10 @@ import org.apache.flink.streaming.api.scala.{DataStream, StreamExecutionEnvironm
   * Union[DataStream->DataStream]
   * Union算子主要将两个或者多个输入的数据集合并成一个数据集，要求输入数据集格式一致，输出格式和输入格式一致
   */
-object Union {
+object TransformationUnion {
   def main(args: Array[String]): Unit = {
       val env = StreamExecutionEnvironment.getExecutionEnvironment
-    
+
     import org.apache.flink.api.scala._
     val dataStream1:DataStream[(String,Int)]=env.fromElements(("a",1),("b",2),("c",3),("d",4),("e",5))
     val dataStream2:DataStream[(String,Int)]=env.fromElements(("a",6),("b",7),("c",8),("d",9),("e",10))

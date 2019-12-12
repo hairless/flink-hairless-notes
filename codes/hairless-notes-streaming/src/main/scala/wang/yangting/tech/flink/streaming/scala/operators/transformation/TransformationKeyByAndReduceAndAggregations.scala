@@ -1,4 +1,4 @@
-package wang.yangting.tech.flink.streaming.scala.operators.single_operator
+package wang.yangting.tech.flink.streaming.scala.operators.transformation
 
 import org.apache.flink.api.java.tuple.Tuple
 import org.apache.flink.streaming.api.scala.{KeyedStream, StreamExecutionEnvironment}
@@ -6,7 +6,7 @@ import org.apache.flink.streaming.api.scala.{KeyedStream, StreamExecutionEnviron
 /**
   * @author yx.zhang
   */
-object KeyByAndReduceAndAggregations {
+object TransformationKeyByAndReduceAndAggregations {
   def main(args: Array[String]): Unit = {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
 
@@ -31,7 +31,7 @@ object KeyByAndReduceAndAggregations {
     //滚动计算指定key的最小值，返回最小值对应的元素
     val minByStream = keyedStream.minBy(1)
     minByStream.print("minBy")
-    
+
     env.execute()
   }
 }

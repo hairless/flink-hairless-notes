@@ -1,4 +1,4 @@
-package wang.yangting.tech.flink.streaming.scala.operators.mutli_operator
+package wang.yangting.tech.flink.streaming.scala.operators.transformation
 
 import org.apache.flink.streaming.api.functions.co.CoMapFunction
 import org.apache.flink.streaming.api.scala.{ConnectedStreams, DataStream, StreamExecutionEnvironment}
@@ -6,7 +6,7 @@ import org.apache.flink.streaming.api.scala.{ConnectedStreams, DataStream, Strea
 /**
   * @author yx.zhang
   */
-object Connect {
+object TransformationConnect {
   def main(args: Array[String]): Unit = {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
     import org.apache.flink.api.scala._

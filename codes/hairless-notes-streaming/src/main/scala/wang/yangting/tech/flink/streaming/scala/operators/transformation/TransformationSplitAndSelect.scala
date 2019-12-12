@@ -1,12 +1,11 @@
-package wang.yangting.tech.flink.streaming.scala.operators.mutli_operator
+package wang.yangting.tech.flink.streaming.scala.operators.transformation
 
 import org.apache.flink.streaming.api.scala.{DataStream, SplitStream, StreamExecutionEnvironment}
-
 
 /**
   * @author yx.zhang
   */
-object SplitAndSelect {
+object TransformationSplitAndSelect {
   def main(args: Array[String]): Unit = {
       val env  = StreamExecutionEnvironment.getExecutionEnvironment
       import org.apache.flink.api.scala._
@@ -20,4 +19,3 @@ object SplitAndSelect {
 
   }
 }
-
