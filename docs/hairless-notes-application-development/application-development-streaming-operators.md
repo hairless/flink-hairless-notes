@@ -38,7 +38,7 @@
   * 适合迭代计算场景，通过每一次迭代计算，将迭代结果反馈到下一次迭代计算中
     [Iterate](../../codes/hairless-notes-streaming/src/main/scala/wang/yangting/tech/flink/streaming/scala/operators/transformation/TransformationIterate.scala) 
   
-  ###  7.Union[DataStream->DataStream]
+###  7.Union[DataStream->DataStream]
   * Union算子主要将两个或者多个输入的数据集合并成一个数据集，要求输入数据集格式一致，输出格式和输入格式一致
     [Union](../../codes/hairless-notes-streaming/src/main/scala/wang/yangting/tech/flink/streaming/scala/operators/transformation/TransformationUnion.scala) 
   
