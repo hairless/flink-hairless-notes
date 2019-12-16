@@ -1,7 +1,7 @@
 # State & Fault Tolerance（状态 & 容错）
 
 ## 知识点
-![](../../images/hairless-notes/hairless-notes-application-development-streaming-state.png)
+![hairless-notes-application-development-streaming-state.png](../../images/hairless-notes/hairless-notes-application-development-streaming-state.png)
 
 ## 代码
 * [StateValueStateWithCountWindowAverage（ValueState Demo）](../../codes/hairless-notes-streaming/src/main/scala/wang/yangting/tech/flink/streaming/scala/state/StateValueStateWithCountWindowAverage.scala)
