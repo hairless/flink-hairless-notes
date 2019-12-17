@@ -5,8 +5,11 @@
 
 ## Streaming
 
-### Stream 概述
+### Overview（概述）
 [application-development-streaming-overview](application-development-streaming-overview.md)
 
-### 事件时间
+### Event Time（事件时间）
 [application-development-streaming-event-time](application-development-streaming-event-time.md)
+
+### State & Fault Tolerance（状态 & 容错）
+[application-development-streaming-state](application-development-streaming-state.md)
