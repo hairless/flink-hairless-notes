@@ -13,3 +13,6 @@
 
 ### State & Fault Tolerance（状态 & 容错）
 [application-development-streaming-state](application-development-streaming-state.md)
+
+### Operators（算子 / 操作器）
+[application-development-streaming-operators](application-development-streaming-operators.md)
