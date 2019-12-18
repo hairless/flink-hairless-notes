@@ -72,14 +72,21 @@
     </dependencyManagement>
     <profiles>
         <profile>
-            <id>dev(local)</id>
+            <id>local(idea)</id>
             <properties>
-                <profiles.active>dev</profiles.active>
+                <profiles.active>idea</profiles.active>
                 <flink.deps.scope>compile</flink.deps.scope>
             </properties>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
+        </profile>
+        <profile>
+            <id>dev(standalone)</id>
+            <properties>
+                <profiles.active>dev</profiles.active>
+                <flink.deps.scope>provided</flink.deps.scope>
+            </properties>
         </profile>
         <profile>
             <id>prod(package)</id>
