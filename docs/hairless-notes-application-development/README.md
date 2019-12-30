@@ -16,3 +16,6 @@
 
 ### Operators（算子 / 操作器）
 [application-development-streaming-operators](application-development-streaming-operators.md)
+
+### Connectors（连接器）
+[application-development-streaming-connectors](application-development-streaming-connectors-overview.md)
