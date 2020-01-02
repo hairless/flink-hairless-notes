@@ -32,9 +32,38 @@
                 <version>${flink.version}</version>
                 <scope>${flink.deps.scope}</scope>
             </dependency>
+            <!-- Flink Streaming -->
             <dependency>
                 <groupId>org.apache.flink</groupId>
                 <artifactId>flink-streaming-scala_${scala.binary.version}</artifactId>
+                <version>${flink.version}</version>
+                <scope>${flink.deps.scope}</scope>
+            </dependency>
+            <!-- Flink Kafka Connector -->
+            <dependency>
+                <groupId>org.apache.flink</groupId>
+                <artifactId>flink-connector-kafka_${scala.binary.version}</artifactId>
+                <version>${flink.version}</version>
+            </dependency>
+            <!-- Flink Table & SQL -->
+            <dependency>
+                <groupId>org.apache.flink</groupId>
+                <artifactId>flink-table-api-scala-bridge_${scala.binary.version}</artifactId>
+                <version>${flink.version}</version>
+                <scope>${flink.deps.scope}</scope>
+            </dependency>
+            <!-- Flink Table Planner -->
+            <!-- Either... (for the old planner that was available before Flink 1.9) -->
+            <dependency>
+                <groupId>org.apache.flink</groupId>
+                <artifactId>flink-table-planner_${scala.binary.version}</artifactId>
+                <version>1.9.0</version>
+                <scope>${flink.deps.scope}</scope>
+            </dependency>
+            <!-- or.. (for the new Blink planner) -->
+            <dependency>
+                <groupId>org.apache.flink</groupId>
+                <artifactId>flink-table-planner-blink_${scala.binary.version}</artifactId>
                 <version>${flink.version}</version>
                 <scope>${flink.deps.scope}</scope>
             </dependency>
@@ -67,12 +96,6 @@
                 <artifactId>junit</artifactId>
                 <version>4.12</version>
                 <scope>test</scope>
-            </dependency>
-            <!-- Flink Kafka Connector -->
-            <dependency>
-                <groupId>org.apache.flink</groupId>
-                <artifactId>flink-connector-kafka_${scala.binary.version}</artifactId>
-                <version>${flink.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

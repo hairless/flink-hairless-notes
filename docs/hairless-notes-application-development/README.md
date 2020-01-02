@@ -40,3 +40,6 @@
 ### Table API
 
 ### SQL
+
+## Data Type & Serialization（数据类型和序列化）
+[application-development-streaming-data-types-serialization](application-development-streaming-data-types-serialization.md)
