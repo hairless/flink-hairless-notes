@@ -67,6 +67,13 @@
                 <version>${flink.version}</version>
                 <scope>${flink.deps.scope}</scope>
             </dependency>
+            <!-- Flink JSON -->
+            <dependency>
+                <groupId>org.apache.flink</groupId>
+                <artifactId>flink-json</artifactId>
+                <version>${flink.version}</version>
+                <scope>${flink.deps.scope}</scope>
+            </dependency>
 
             <!-- Scala Library, provided by Flink as well. -->
             <dependency>
