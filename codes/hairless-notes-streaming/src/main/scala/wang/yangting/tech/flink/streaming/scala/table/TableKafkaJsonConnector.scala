@@ -1,5 +1,6 @@
 package wang.yangting.tech.flink.streaming.scala.table
 
+import org.apache.flink.api.scala.typeutils.Types
 import org.apache.flink.streaming.api.scala.{StreamExecutionEnvironment, _}
 import org.apache.flink.table.api.EnvironmentSettings
 import org.apache.flink.table.api.scala.{StreamTableEnvironment, _}
@@ -39,9 +40,9 @@ object TableKafkaJsonConnector {
       )
       .withSchema(
         new Schema()
-          .field("id","STRING")
-          .field("name","STRING")
-          .field("balance","LONG")
+          .field("id", Types.STRING)
+          .field("name", Types.STRING)
+          .field("balance", Types.LONG)
       )
       .inAppendMode()
       .registerTableSource("kafka_users")
