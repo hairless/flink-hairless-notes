@@ -90,18 +90,18 @@ Windows 10 Professional
 
 ## 验证
 1. 验证 PushGateWay : 浏览器访问 http://127.0.0.1:9091  
-    ![](../../images/hairless-notes/hairless-notes-debugging-monitoring-metrics-promethues-grafana-stage-1.jpg)
+    ![hairless-notes-debugging-monitoring-metrics-promethues-grafana-stage-1](../../images/hairless-notes/hairless-notes-debugging-monitoring-metrics-promethues-grafana-stage-1.jpg)
 2. 验证 Prometheus : 浏览器访问 http://127.0.0.1:9090  
-    ![](../../images/hairless-notes/hairless-notes-debugging-monitoring-metrics-promethues-grafana-stage-2.jpg)
+    ![hairless-notes-debugging-monitoring-metrics-promethues-grafana-stage-2](../../images/hairless-notes/hairless-notes-debugging-monitoring-metrics-promethues-grafana-stage-2.jpg)
 2. 验证 Grafana : 浏览器访问 http://127.0.0.1:3000  
-    ![](../../images/hairless-notes/hairless-notes-debugging-monitoring-metrics-promethues-grafana-stage-3.jpg)
+    ![hairless-notes-debugging-monitoring-metrics-promethues-grafana-stage-3](../../images/hairless-notes/hairless-notes-debugging-monitoring-metrics-promethues-grafana-stage-3.jpg)
 
 ## 配置
 1. Grafana 集成 Prometheus.
    可参考 <https://www.cnblogs.com/xiangsikai/p/11289333.html>
 
 ## 效果
-![](../../images/hairless-notes/hairless-notes-debugging-monitoring-metrics-promethues-grafana-stage-4.jpg)
+![hairless-notes-debugging-monitoring-metrics-promethues-grafana-stage-4](../../images/hairless-notes/hairless-notes-debugging-monitoring-metrics-promethues-grafana-stage-4.jpg)
 
 ## 感言
 图都是自己加上去的,多多参考下下述的官方文档就好了,说简单不简单, 说不复杂也不复杂, 还挺有意思的吧！~
