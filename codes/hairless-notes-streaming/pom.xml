@@ -70,6 +70,15 @@
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-json</artifactId>
         </dependency>
+        <!-- Flink JDBC-->
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-jdbc_${scala.binary.version}</artifactId>
+        </dependency>
+        <!-- MySQL Connector Java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
     </dependencies>
-
 </project>
